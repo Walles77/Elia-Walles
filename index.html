@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elia Walles Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile" data-aos="fade-right">
+                <img src="assets/images/profile.png" alt="Profile Picture">
+                <h3>Elia Walles</h3>
+                <p>Tech Specialist</p>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="#services">What I Do</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#facts">Fun Facts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" class="section hero">
+                <div class="hero-content" data-aos="fade-up">
+                    <h1>Hi, I'm <span>Elia Walles</span></h1>
+                    <p>Crafting modern and innovative technology solutions.</p>
+                    <div class="buttons" data-aos="fade-up">
+                        <a href="#" class="btn btn-primary">Download CV</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-bg"></div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="section services">
+                <h2 class="section-title" data-aos="fade-down">What I Do</h2>
+                <div class="services-grid">
+                    <div class="service" data-aos="flip-left">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Computer Networking</h3>
+                        <p>Designing, configuring, and maintaining network systems.</p>
+                    </div>
+                    <div class="service" data-aos="flip-left">
+                        <i class="fas fa-code"></i>
+                        <h3>Full Stack Web Developer</h3>
+                        <p>Building modern web applications from front to back.</p>
+                    </div>
+                    <div class="service" data-aos="flip-left">
+                        <i class="fas fa-database"></i>
+                        <h3>Database Administrator</h3>
+                        <p>Managing and optimizing data storage and retrieval systems.</p>
+                    </div>
+                    <div class="service" data-aos="flip-left">
+                        <i class="fab fa-windows"></i>
+                        <h3>Windows Server Administrator</h3>
+                        <p>Ensuring robust and secure Windows server environments.</p>
+                    </div>
+                    <div class="service" data-aos="flip-left">
+                        <i class="fab fa-linux"></i>
+                        <h3>Linux Server Administrator</h3>
+                        <p>Implementing and managing secure Linux servers.</p>
+                    </div>
+                    <div class="service" data-aos="flip-left">
+                        <i class="fas fa-broadcast-tower"></i>
+                        <h3>Telecommunication Engineer</h3>
+                        <p>Designing and maintaining communication networks.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scroll Animations Script -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration
+            once: true // Animation happens only once
+        });
+    </script>
+</body>
+</html>
